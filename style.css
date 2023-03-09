@@ -204,15 +204,15 @@ a {
 
 @media (min-width: 800px) {
   body {
-    max-width: 425px;
+    max-width: 525px;
   }
 
   html, body, div, img, ul, li, ol, span, p, h1, h2, h3 {
-    font-size: 17px;
+    font-size: 18px;
   }
 
   .text p {
-    max-width: 296px;
+    max-width: 312px;
   }
 
   .save-date, .map, .ranch, .gurneys,
