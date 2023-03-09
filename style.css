@@ -1,0 +1,278 @@
+@font-face { font-family: MillerDisplaySCRegular; src: url('./Miller-Display-SC-Regular.otf'); }
+
+/* reset */
+html, body, div, img, ul, li, ol, span, p, h1, h2, h3 {
+  padding: 0;
+  margin: 0;
+  font-family: 'MillerDisplaySCRegular';
+  color: #636365;
+  font-size: 14px;
+  line-height: 1.2143;
+}
+
+html {
+  width: 100%;
+}
+
+body {
+  max-width: 324px;
+  margin: 40px auto 10px auto;
+}
+
+main {
+  width: 100%;
+}
+
+
+img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: underline;
+  color: inherit;
+}
+
+.slide {
+  width: 100%;
+  text-align: center;
+}
+.text p {
+  max-width: 244px;
+  margin: auto;
+}
+
+/* slide 1 */
+.save-date {
+  max-width: 292px;
+}
+.save-date-txt {
+  max-width: 149px;
+}
+
+/* slide 2 */
+.ranch {
+  max-width: 288px;
+}
+.you-invited-txt {
+  max-width: 135px;
+  margin-top: 23px;
+}
+
+/* slide 3 */
+.map {
+  margin-top: 50px;
+  max-width: 305px
+}
+.join-us-txt {
+  margin-top: 25px;
+  max-width: 146px;
+}
+
+/* slide 4 */
+.gurneys {
+  margin-top: 130px;
+  max-width: 211px;
+}
+.accommodations-txt {
+  margin-top: -6px;
+  margin-bottom: 10px;
+  max-width: 145px;
+}
+
+/* slide 5 */
+.hotels {
+  margin-top: 25px;
+}
+.hotels-txt {
+  max-width: 137px;
+  margin-bottom: 17px;
+}
+
+/* slide 6 */
+.house {
+  max-width: 283px;
+  margin-top: 110px;
+}
+.airbnb-txt {
+  max-width: 130px;
+  margin-top: -6px;
+  margin-bottom: 14px;
+}
+
+/* slide 7 */
+.travel {
+  max-width: 96px;
+  margin-top: 70px;
+}
+.get-there-txt {
+  max-width: 181px;
+  display: block;
+  margin: 20px auto 3px auto;
+}
+
+/* slide 8 */
+.train {
+  max-width: 194px;
+  margin-top: 25px;
+}
+.trains-txt {
+  max-width: 83px;
+  display: block;
+  margin: 8px auto 18px auto;
+}
+
+/* slide 9 */
+.plane {
+  margin-top: 105px;
+  max-width: 286px;
+}
+.planes-txt {
+  margin-top: -40px;
+  max-width: 77px;
+  margin-bottom: 16px;
+}
+
+/* slide 10 */
+.car {
+  margin-top: 110px;
+  max-width: 232px;
+}
+.automobiles-txt {
+  max-width: 122px;
+  margin-top: 8px;
+  margin-bottom: 17px;
+}
+
+/* slide 11 */
+.jitney {
+  margin-top: 80px;
+  max-width: 276px;
+}
+.jitney-txt {
+  max-width: 276px;
+  margin: 14px auto 1px auto;
+}
+
+/* slide 12 */
+.uber-txt {
+  margin: 65px auto 3px auto;
+  max-width: 106px;
+}
+
+/* slide 13 */
+.horse {
+  margin-top: 85px;
+  max-width: 247px;
+}
+.activities-txt {
+  max-width: 98px;
+  margin: 3px auto 17px auto;
+}
+
+/* slide 14 */
+.activities {
+  margin-top: 100px;
+  max-width: 249px;
+}
+.recommendations-txt {
+  max-width: 188px;
+  margin: 8px auto 10px auto;
+}
+
+/* slide 15 */
+.e-n {
+  margin: 95px auto 19px auto;
+  max-width: 175px;
+}
+.love-txt {
+  max-width: 113px;
+  margin-top: 19px;
+}
+
+/* slide 16 */
+.green-car {
+  margin-top: 99px;
+  max-width: 79px;
+}
+
+@media (min-width: 800px) {
+  body {
+    max-width: 425px;
+  }
+
+  html, body, div, img, ul, li, ol, span, p, h1, h2, h3 {
+    font-size: 17px;
+  }
+
+  .text p {
+    max-width: 296px;
+  }
+
+  .save-date, .map, .ranch, .gurneys,
+  .hotels, .house, .travel, .train,
+  .plane, .car, .jitney, .horse,
+  .activities, .e-n {
+    max-width: 90%;
+  }
+  .travel {
+    max-width: 150px;
+  }
+
+  .save-date-txt, .you-invited-txt,
+  .join-us-txt, .accommoations-txt,
+  .hotels-txt, .airbnb-txt, .get-there-txt,
+  .trains-txt, .planes-txt, .automobiles-txt,
+  .jitney-txt, .activities-txt, .uber-txt,
+  .recommendations-txt, .love-txt {
+    max-width: 200px;
+  }
+  .save-date-txt {
+    max-width: 245px;
+  }
+  .you-invited-txt {
+    max-width: 200px;
+  }
+  .join-us-txt {
+    max-width: 220px;
+  }
+  .hotels-txt {
+    max-width: 185px;
+  }
+  .airbnb-txt {
+    max-width: 160px;
+  }
+  .accommodations-txt {
+    max-width: 235px;
+  }
+  .get-there-txt {
+    max-width: 210px;
+  }
+  .trains-txt,
+  .planes-txt {
+    max-width: 100px;
+  }
+  .automobiles-txt {
+    max-width: 170px;
+  }
+  .jitney-txt {
+    max-width: 320px;
+  }
+  .uber-txt {
+    max-width: 135px;
+  }
+  .activities-txt {
+    max-width: 145px;
+  }
+  .recommendations-txt {
+    max-width: 285px;
+  }
+
+
+}
